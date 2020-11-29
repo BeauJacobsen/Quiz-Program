@@ -1,0 +1,52 @@
+<html>
+  <head>
+     <title>Quiz Program</title>
+     <script>
+      var score = 0;
+      var questionCount = 0;
+      function gradeQuiz()
+      {
+        if(questionCount == 0)
+        {
+           document.getElementById("question").innnerHTML = "Question 1";
+
+           score = score + 1;
+
+        }
+       end();
+      }
+       function end()
+       {
+             if( questionCount == 3)
+             {
+
+             }
+       }
+     </script>
+  </head>
+
+  <body>
+    <h2>Fun Quiz!</h2>
+    <span id = "question"></span>
+    <input type = "text" id = "answer">
+    <input type = "button" value = "Submit Answer" onclick = "gradeQuiz()">
+     <!--Hide or Reveal Stuff???-->
+     <span>TEXT</span><!--hidden at beginning maybe??-->
+  </body>
+</html>
+<html>
+   <head>
+     <script>
+        function test()
+         {
+           document.getElementById("mess").innerHTML = "How tall is the Empire State Building?";
+         }
+     </script>
+   </head>
+
+   <body>
+    <span id = "mess">How big is big?</span>
+    <input type = "text">
+    <input type = "button" value = "ok" onclick = "test()">
+   </body>
+</html>
